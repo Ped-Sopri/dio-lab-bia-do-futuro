@@ -1,10 +1,8 @@
-# 🤖 A BIA do Futuro com IA Generativa
+# 🤖 Desafio de Projeto: A BIA do Futuro com IA Generativa
 
 ## Contexto
 
-A **BIA** (Bradesco Inteligência Artificial) já é uma assistente virtual consolidada, auxiliando milhões de clientes em consultas e operações do dia a dia. Agora, queremos pensar no próximo passo: como a IA Generativa pode transformar a BIA em uma **agente financeira ainda mais inteligente, proativa e personalizada**?
-
-Neste desafio, você vai idealizar e prototipar uma evolução da BIA que:
+A **BIA** (Bradesco Inteligência Artificial) já é uma assistente virtual consolidada, auxiliando milhões de clientes em consultas e operações do dia a dia. Agora, queremos pensar no próximo passo: como a IA Generativa pode transformar a BIA em uma **agente financeira ainda mais inteligente, proativa e personalizada**? Neste desafio, você vai idealizar e prototipar uma evolução da BIA que:
 
 - **Antecipa necessidades** ao invés de apenas responder perguntas
 - **Personaliza** sugestões com base no contexto de cada cliente
@@ -76,21 +74,20 @@ Documente os prompts que fariam sua BIA funcionar:
 - Exemplos de interações (mensagem do usuário + resposta esperada)
 - Testes de edge cases (situações limite)
 
+📄 **Template:** [`prompts/prompts-exemplo.md`](./prompts/prompts-exemplo.md)
+
 #### 4.2 Código MVP (Opcional)
 Se quiser ir além, crie um protótipo funcional:
 - Um chatbot simples que demonstre a interação
 - Integração básica com APIs de LLMs
 - Use a linguagem e ferramentas que preferir
 
+📁 **Pasta:** [`src/`](./src/) (coloque aqui seus arquivos de código)
+
 #### 4.3 Interface Visual (Opcional)
 Crie mockups ou protótipos navegáveis da experiência do usuário.
 
-**Entregáveis:**
-- Arquivo com exemplos de prompts documentados
-- Código-fonte do MVP (se aplicável)
-- Link ou imagens do protótipo visual (se aplicável)
-
-📄 **Template:** [`prompts/prompts-exemplo.md`](./prompts/prompts-exemplo.md)
+📁 **Pasta:** [`assets/`](./assets/) (coloque aqui imagens, prints e protótipos)
 
 ---
 
@@ -119,24 +116,23 @@ Descreva como você testaria sua solução antes de colocá-la em produção:
 
 ## Ferramentas Sugeridas
 
-Todas as ferramentas abaixo possuem versões gratuitas:
+Todas as ferramentas abaixo possuem versões (ou camadas) gratuitas:
 
 | Categoria | Ferramentas |
 |-----------|-------------|
 | **LLMs para testes** | [ChatGPT](https://chat.openai.com/), [Copilot](https://copilot.microsoft.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Ollama](https://ollama.ai/) (modelos open-source locais) |
 | **Diagramas** | [Mermaid](https://mermaid.js.org/) (renderiza no GitHub), [Draw.io](https://app.diagrams.net/), [Excalidraw](https://excalidraw.com/) |
 | **Prototipagem visual** | [Figma](https://www.figma.com/), [Canva](https://www.canva.com/), [v0.dev](https://v0.dev/) |
-| **Desenvolvimento rápido** | [Streamlit](https://streamlit.io/), [Gradio](https://www.gradio.app/), [Google Colab](https://colab.research.google.com/) |
-| **Orquestração de LLMs** | [LangChain](https://www.langchain.com/), [LangFlow](https://www.langflow.org/) |
-| **Testes de prompts** | [PromptFoo](https://www.promptfoo.dev/) |
-| **Organização** | [Notion](https://www.notion.so/), [Obsidian](https://obsidian.md/) |
+| **Desenvolvimento rápido** | [Streamlit](https://streamlit.io/), [Google Colab](https://colab.research.google.com/) |
+| **Orquestração de LLMs** | [LangChain](https://www.langchain.com/), [LangFlow](https://www.langflow.org/), [N8N](https://n8n.io/), [CrewAI](https://www.crewai.com/) |
+| **Organização** | [Notion](https://www.notion.so/), [Trello](https://trello.com/) |
 
 ---
 
 ## Estrutura do Repositório
 
 ```
-📁 bia-do-futuro/
+📁 dio-lab-bia-do-futuro/
 ├── 📄 README.md
 ├── 📁 docs/
 │   ├── caso-de-uso.md
