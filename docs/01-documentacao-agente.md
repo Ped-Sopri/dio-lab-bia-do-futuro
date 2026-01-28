@@ -5,39 +5,41 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Muitas pessoas como eu sairam da escola sem compreenção de como funciona o mercado financeiro e os diverssos tipos investimentos o foco desta IA seria ajudar as pessoas a investir o seu dinheiro.   
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Encontrando o melhor tipo de investimento possivel para esta pessoa de acordo com o seu perfil e necessidade, porém que explique didaticamente o que seria este invetimento, seu rendimento e se ha IR.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Pessoas iniciantes no mercado financeiro.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Sexta-Feira - Invista com a IA do Homem de Ferro (Nome voltado mais para o marketing)
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+- Tem um perfil educativo e consultivo;
+- Amigavel;
+- Nunca julgar a quantia de dinheiro para investir;
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+Informal e que explique de uma forma simples que garanta acessibilidade
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: [ex: "Olá! Aqui é sexta-feira vamos investir hoje?"]
+- Confirmação: [ex: "Sextou com sucesso! Deixa eu verificar isso para você."]
+- Erro/Limitação: [ex: "Infelizmente não sextou, não tenho essa informação no momento, mas posso ajudar com..."]
 
 ---
 
@@ -59,10 +61,9 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | [Chatbot em Streamlit](https://streamlit.io/) |
+| LLM | [Ollama](https://ollama.com/) |
+| Base de Conhecimento | [JSON/CSVs ver na pasta `data`] |
 
 ---
 
@@ -70,12 +71,14 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] Agente só responde com base nos dados individuais de cada cliente
+- [ ] Sempe recomenda ao final consultar profissional certificado
+- [ ] Respostas incluem fonte da informação
+- [ ] Quando não sabe, admite e recomenda profissional certificado para tirar duvidas
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- [ ] Não faz recomendações de investimento sem o perfil do cliente
+- [ ] Não inventa investimentos
+- [ ] Não ajuda com algo além de sujestões e explicações de investimentos 
