@@ -2,40 +2,51 @@
 
 ## Dados Utilizados
 
-Descreva se usou os arquivos da pasta `data`, por exemplo:
 
-| Arquivo | Formato | Utilização no Agente |
+| Arquivo | Formato | Utilização por Sexta-feira |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
+| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores (conhecer melhor o cliente) |
+| `perfil_investidor.json` | JSON | Personalizar recomendações sobre investimentos para o cliente |
+| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil e como funciona |
+| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente (conhecer melhor o cliente)|
 
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+
 
 ---
 
 ## Adaptações nos Dados
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
-
-[Sua descrição aqui]
-
+Não
 ---
 
 ## Estratégia de Integração
 
 ### Como os dados são carregados?
-> Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+Injetar diretamente no prompt ou carregar via código como exemplo:
+
+```python
+import pandas as pd
+import json
+
+# Carregar arquivos CSV com pandas
+historico_atendimento = pd.read_csv('data/historico_atendimento.csv')
+transacoes = pd.read_csv('data/transacoes.csv')
+
+# Carregar arquivos JSON
+with open("perfil_investidor.json", "r", encoding="utf-8") as f:
+    perfil_investidor = json.load(f)
+
+with open("produtos_financeiros.json", "r", encoding="utf-8") as f:
+    produtos_financeiros = json.load(f)
+```
+
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
-
+> Injetar os dados mokados na pasta data diretamente no prompt garantindo garantindo que o agente tenha todas os dados da forma mais silples e rapida possivel para o seu melhor desempenho, mas se as informações forem carregadas dinamicamente se ganha flexibilidade. 
 ---
 
 ## Exemplo de Contexto Montado
