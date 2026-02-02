@@ -71,14 +71,12 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] Agente só responde com base nos dados individuais de cada cliente
+- [ ] Agente só responde com base nos dados fornecidos
 - [ ] Sempe recomenda ao final consultar profissional certificado
-- [ ] Respostas incluem fonte da informação
 - [ ] Quando não sabe, admite e recomenda profissional certificado para tirar duvidas
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-- [ ] Não faz recomendações de investimento sem o perfil do cliente
 - [ ] Não inventa investimentos
 - [ ] Não ajuda com algo além de sujestões e explicações de investimentos 
