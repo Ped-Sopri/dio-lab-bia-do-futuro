@@ -131,7 +131,5 @@ Qual o valor que esta dispostos a investir?
 
 ## Observações e Aprendizados
 
-> Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Observação 1: No chat GPT a IA age mais como se fosse um usuario genérico, ja no copilot a IA identifica o usuario como joão e da mais informações de acordo com o perfil financeiro sendo um mais direcionado as necessidades do usuario que o outro. Mas quando induzi um erro perguntando que dia ´da semana seria amanhã e o chatgpt agiu como esperado nas instruções de prompt mas o copilot não.
