@@ -63,7 +63,7 @@ flowchart TD
 |------------|-----------|
 | Interface | [Chatbot em Streamlit](https://streamlit.io/) |
 | LLM | [Ollama](https://ollama.com/) |
-| Base de Conhecimento | [JSON/CSVs ver na pasta `data`] |
+| Base de Conhecimento | [Na pasta `data` estão os arquivo utilizados eu utilizo Postgresql mas coloquei ele em .csv] |
 
 ---
 
@@ -71,12 +71,12 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] Agente só responde com base nos dados fornecidos
-- [ ] Sempe recomenda ao final consultar profissional certificado
-- [ ] Quando não sabe, admite e recomenda profissional certificado para tirar duvidas
+- [ X] Agente só responde com base nos dados fornecidos
+- [X ] Sempe recomenda ao final consultar profissional certificado
+- [X ] Quando não sabe, admite e recomenda profissional certificado para tirar duvidas
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-- [ ] Não inventa investimentos
-- [ ] Não ajuda com algo além de sujestões e explicações de investimentos 
+- [ X] Não inventa investimentos
+- [X ] Não ajuda com algo além de sujestões e explicações de investimentos 
