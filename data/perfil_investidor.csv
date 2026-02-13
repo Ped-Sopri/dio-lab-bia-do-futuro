@@ -1,0 +1,8 @@
+id,nome_investidor,cpf,idade,profissao,renda_mensal,perfil,objetivo_principal,patrimonio,reserva,risco,senha_hash
+1,Joao Silva,123.456.789-00,32,Analista de Sistemas,5000.00,moderado,Construir reserva de emergencia,15000.00,50000.00,false,5a6128987fb42707989a813b5da8a1f0186bcad85d0a63b6a8135ddfa9347355
+2,Maria Oliveira,987.654.321-00,27,Enfermeira,3500.00,conservador,Quitar dívidas estudantis,8000.00,5000.00,false,5a6128987fb42707989a813b5da8a1f0186bcad85d0a63b6a8135ddfa9347355
+3,Carlos Mendes,456.789.123-00,40,Engenheiro Civil,12000.00,arrojado,Aumentar patrimônio para aposentadoria,200000.00,60000.00,true,5a6128987fb42707989a813b5da8a1f0186bcad85d0a63b6a8135ddfa9347355
+4,Ana Costa,321.654.987-00,35,Professora,4500.00,moderado,Garantir educação dos filhos,30000.00,15000.00,false,5a6128987fb42707989a813b5da8a1f0186bcad85d0a63b6a8135ddfa9347355
+5,Ricardo Lima,234.567.890-11,29,Desenvolvedor de Software,8000.00,arrojado,Investir em ações e startups,50000.00,20000.00,true,5a6128987fb42707989a813b5da8a1f0186bcad85d0a63b6a8135ddfa9347355
+6,Fernanda Rocha,567.890.123-45,31,Advogado,10000.00,moderado,Comprar imóvel proprio,70000.00,30000.00,false,5a6128987fb42707989a813b5da8a1f0186bcad85d0a63b6a8135ddfa9347355
+7,Paulo Santos,678.901.234-56,45,Médico,20000.00,conservador,Garantir aposentadoria segura,500000.00,100000.00,false,5a6128987fb42707989a813b5da8a1f0186bcad85d0a63b6a8135ddfa9347355

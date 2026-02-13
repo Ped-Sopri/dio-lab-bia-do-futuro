@@ -1,0 +1,68 @@
+id,cpf,data,descricao,categoria,valor,tipo
+1,123.456.789-00,2025-10-01,Salário,receita,5000.00,entrada
+2,123.456.789-00,2025-10-02,Aluguel,moradia,1200.00,saida
+3,123.456.789-00,2025-10-03,Supermercado,alimentacao,450.00,saida
+4,123.456.789-00,2025-10-05,Netflix,lazer,55.90,saida
+5,123.456.789-00,2025-10-07,Farmácia,saude,89.00,saida
+6,123.456.789-00,2025-10-10,Restaurante,alimentacao,120.00,saida
+7,123.456.789-00,2025-10-12,Uber,transporte,45.00,saida
+8,123.456.789-00,2025-10-15,Conta de Luz,moradia,180.00,saida
+9,123.456.789-00,2025-10-20,Academia,saude,99.00,saida
+10,123.456.789-00,2025-10-25,Conta de água,moradia,100.00,saida
+11,234.567.890-11,2025-10-01,Salário,receita,8000.00,entrada
+12,234.567.890-11,2025-10-03,Viagem,lazer,2000.00,saida
+13,234.567.890-11,2025-10-05,Plano de Saude,saude,1500.00,saida
+14,234.567.890-11,2025-10-08,Dividendos,receita,420.00,entrada
+15,234.567.890-11,2025-10-12,Seguro,seguro,1800.00,saida
+16,234.567.890-11,2025-10-20,Day trade ações,investimento,1200.00,saida
+17,234.567.890-11,2025-10-22,Dividendos,receita,350.00,entrada
+18,234.567.890-11,2025-10-24,Cripto,investimento,900.00,saida
+19,234.567.890-11,2025-10-26,Restaurante,lazer,180.00,saida
+20,234.567.890-11,2025-10-28,Freelance dev,receita,1500.00,entrada
+21,321.654.987-00,2025-10-01,Salário,receita,4500.00,entrada
+22,321.654.987-00,2025-10-02,Aluguel,moradia,1200.00,saida
+23,321.654.987-00,2025-10-03,Supermercado,alimentacao,420.00,saida
+24,321.654.987-00,2025-10-05,Escola filhos,educacao,800.00,saida
+25,321.654.987-00,2025-10-06,Conta de Luz,contas,160.00,saida
+26,321.654.987-00,2025-10-08,Gas,contas,120.00,saida
+27,321.654.987-00,2025-10-10,Material escolar,educacao,300.00,saida
+28,321.654.987-00,2025-10-12,Farmácia,saude,95.50,saida
+29,321.654.987-00,2025-10-15,Aula particular,receita,250.00,entrada
+30,321.654.987-00,2025-10-18,Reforma casa - materiais,moradia,650.00,saida
+31,456.789.123-00,2025-10-01,Salário,receita,12000.00,entrada
+32,456.789.123-00,2025-10-02,Aluguel,moradia,2500.00,saida
+33,456.789.123-00,2025-10-03,Restaurante,alimentacao,420.00,saida
+34,456.789.123-00,2025-10-05,Emprestimo,divida,3000.00,saida
+35,456.789.123-00,2025-10-06,Funilaria,Transporte,2500.00,saida
+36,456.789.123-00,2025-10-08,Convenio,Saude,800.00,entrada
+37,456.789.123-00,2025-10-10,Compra equipamento obra,trabalho,1800.00,saida
+38,456.789.123-00,2025-10-12,Viagem,lazer,2200.00,saida
+39,456.789.123-00,2025-10-15,Consultoria engenharia,receita,3500.00,entrada
+40,456.789.123-00,2025-10-18,MBA,Educacao,1500.00,saida
+41,567.890.123-45,2025-10-01,Salário,receita,10000.00,entrada
+42,567.890.123-45,2025-10-02,Aluguel,moradia,2000.00,saida
+43,567.890.123-45,2025-10-05,Fundo multimercado,investimento,1200.00,saida
+44,567.890.123-45,2025-10-10,Gasolina,transporte,800.00,saida
+45,567.890.123-45,2025-10-20,Viagem,investimento,1000.00,saida
+46,567.890.123-45,2025-10-22,Seguro do carro,transporte,600.00,saida
+47,567.890.123-45,2025-10-24,Salário extra,receita,800.00,entrada
+48,567.890.123-45,2025-10-26,Supermercado,alimentacao,420.00,saida
+49,567.890.123-45,2025-10-28,Farmácia,saude,130.00,saida
+50,678.901.234-56,2025-10-01,Salário,receita,20000.00,entrada
+51,678.901.234-56,2025-10-02,Aluguel,moradia,3500.00,saida
+52,678.901.234-56,2025-10-05,Viagem,lazer,5000.00,saida
+53,678.901.234-56,2025-10-07,Parcela do carro,transporte,4000.00,saida
+54,678.901.234-56,2025-10-20,gasolina,transporte,700.00,saida
+55,678.901.234-56,2025-10-24,Hora-extra,receita,9000.00,entrada
+56,678.901.234-56,2025-10-26,Plano de saúde,saude,1200.00,saida
+57,987.654.321-00,2025-10-01,Salário,receita,3500.00,entrada
+58,987.654.321-00,2025-10-02,Aluguel,moradia,950.00,saida
+59,987.654.321-00,2025-10-03,Supermercado,alimentacao,380.50,saida
+60,987.654.321-00,2025-10-04,Transporte (ônibus/metro),transporte,160.00,saida
+61,987.654.321-00,2025-10-05,Parcela Empréstimo Estudantil,dividas,650.00,saida
+62,987.654.321-00,2025-10-06,Conta de Luz,contas,140.75,saida
+63,987.654.321-00,2025-10-07,Conta de Internet,contas,99.90,saida
+64,987.654.321-00,2025-10-08,Farmácia,saude,72.30,saida
+65,987.654.321-00,2025-10-15,Bônus plantão,receita,450.00,entrada
+66,987.654.321-00,2025-10-16,Pagamento extra - Empréstimo Estudantil,dividas,300.00,saida
+67,987.654.321-00,2025-10-20,Consulta médica,saude,120.00,saida

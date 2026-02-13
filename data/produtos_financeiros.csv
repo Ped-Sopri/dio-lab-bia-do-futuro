@@ -1,0 +1,53 @@
+id_produto,nome,categoria,risco,rentabilidade,aporte_minimo,indicado_para
+1,Tesouro Selic,renda_fixa,baixo,100% da Selic,30.00,Reserva de emergência e iniciantes
+2,CDB Liquidez Diária,renda_fixa,baixo,102% do CDI,100.00,Quem busca segurança com rendimento diário
+3,LCI/LCA,renda_fixa,baixo,95% do CDI,1000.00,Quem pode esperar 90 dias (isento de IR)
+4,Fundo Multimercado,fundo,medio,CDI + 2%,500.00,Perfil moderado que busca diversificação
+5,Fundo de Ações,fundo,alto,Variável,100.00,Perfil arrojado com foco no longo prazo
+6,Tesouro IPCA+,renda_fixa,baixo,IPCA + 5%,30.00,Proteção contra inflação e longo prazo
+7,Tesouro Prefixado,renda_fixa,baixo,Taxa fixa de 12% a.a.,30.00,Quem busca previsibilidade
+8,CDB Bancos Médios,renda_fixa,medio,110% do CDI,500.00,Quem aceita risco moderado para maior retorno
+9,Debêntures Incentivadas,renda_fixa,medio,IPCA + 6%,1000.00,Investidores que buscam isenção de IR
+10,CRI/CRA,renda_fixa,medio,CDI + 3%,5000.00,Investidores qualificados com foco em crédito
+11,Fundo Cambial,fundo,medio,Variação do dólar,500.00,Proteção contra variação cambial
+12,Fundo Imobiliário (FIIs),fundo,medio,Dividendos mensais + valorização,100.00,Renda passiva e diversificação
+13,ETF Ibovespa,fundo,alto,Variação do índice Ibovespa,50.00,Exposição ampla ao mercado de ações
+14,ETF S&P 500,fundo,alto,Variação do índice S&P 500,100.00,Exposição internacional
+15,Ações Blue Chips,acoes,alto,Dividendos + valorização,100.00,Investidores de longo prazo
+16,Small Caps,acoes,alto,Potencial de alto crescimento,100.00,Investidores arrojados
+17,BDRs,acoes,alto,Variação de ações estrangeiras,50.00,Exposição a empresas globais
+18,Previdência PGBL,previdencia,medio,CDI + 1%,200.00,Planejamento tributário e aposentadoria
+19,Previdência VGBL,previdencia,medio,"CDI + 1,5%",200.00,Acúmulo de patrimônio para aposentadoria
+20,Fundos de Venture Capital,alternativo,alto,Retorno variável (startups),10000.00,Investidores qualificados e arrojados
+21,Fundos de Private Equity,alternativo,alto,Retorno variável (empresas privadas),20000.00,Investidores qualificados de longo prazo
+22,Fundos de Infraestrutura,fundo,medio,IPCA + 4%,1000.00,Investidores que buscam estabilidade e isenção de IR
+23,Fundos Quantitativos,fundo,alto,Estratégias algorítmicas,500.00,Investidores sofisticados
+24,Fundos ESG,fundo,medio,Variável,200.00,Investidores que valorizam sustentabilidade
+25,Tesouro IPCA+ com Juros Semestrais,renda_fixa,baixo,"IPCA + 4,5%",30.00,Quem busca renda periódica e proteção contra inflação
+26,CDB Longo Prazo,renda_fixa,medio,115% do CDI,1000.00,Investidores que podem esperar 2 a 5 anos
+27,Letra Financeira,renda_fixa,medio,120% do CDI,5000.00,Investidores qualificados com horizonte longo
+28,Fundo Long Biased,fundo,alto,CDI + 4%,1000.00,Investidores que aceitam volatilidade buscando ganhos maiores
+29,Fundo de Crédito Privado,fundo,medio,"CDI + 2,5%",500.00,Quem busca diversificação em títulos corporativos
+30,Fundo de Commodities,fundo,alto,Variação de preços de commodities,1000.00,"Exposição a petróleo, ouro e agrícolas"
+31,ETF MSCI Emerging Markets,fundo,alto,Variação de mercados emergentes,100.00,Diversificação internacional em países emergentes
+32,Ações de Dividendos,acoes,medio,Dividend Yield + valorização,100.00,Investidores que buscam renda recorrente
+33,Fundos Setoriais,fundo,alto,Variação de setores específicos,200.00,Investidores que acreditam em setores específicos
+34,Fundos de Hedge,fundo,alto,Estratégias de arbitragem e proteção,5000.00,Investidores sofisticados buscando proteção
+35,Fundos de Criptomoedas,alternativo,alto,Variação de Bitcoin e Ethereum,500.00,Investidores arrojados e tecnológicos
+36,Crowdfunding Imobiliário,alternativo,medio,Retorno variável de projetos imobiliários,1000.00,Investidores que querem participar de projetos específicos
+37,Fundos de Reits (EUA),fundo,medio,Dividendos + valorização imobiliária,200.00,Exposição ao mercado imobiliário americano
+38,Fundos de Ouro,fundo,medio,Variação do ouro,100.00,Proteção contra crises e inflação
+39,Fundos de Carbono,fundo,medio,Variação de créditos de carbono,500.00,Investidores que valorizam sustentabilidade e inovação
+40,Futuros de Ouro (Commodity),commodities,alto,Variação do preço do ouro no mercado internacional,1000.00,Investidores experientes buscando proteção e diversificação
+41,Futuros de Soja (Commodity),commodities,alto,Variação do preço da soja,800.00,Exposição ao agronegócio e diversificação
+42,Futuros de Milho (Commodity),commodities,alto,Variação do preço do milho,800.00,Exposição ao agronegócio e hedge de inflação
+43,Futuros de Açúcar (Commodity),commodities,alto,Variação do preço do açúcar,800.00,Investidores que querem exposição a commodities agrícolas
+44,Futuros de Algodão (Commodity),commodities,alto,Variação do preço do algodão,800.00,Exposição a commodities agrícolas e cadeias de consumo
+45,Futuros de Boi Gordo (Commodity),commodities,alto,Variação do preço do boi gordo,900.00,Exposição ao mercado pecuário e diversificação
+46,Futuros de Cobre (Commodity),commodities,alto,Variação do preço do cobre (indústria e eletrificação),1000.00,Exposição a metais industriais e tendências de infraestrutura
+47,Dólar,moedas,medio,Variação cambial USD/BRL,200.00,Proteção contra desvalorização do real
+48,Euro,moedas,medio,Variação cambial EUR/BRL,200.00,Diversificação internacional
+49,Libra Esterlina,moedas,medio,Variação cambial GBP/BRL,200.00,Investidores que acompanham mercado europeu
+50,Iene Japonês,moedas,medio,Variação cambial JPY/BRL,200.00,Diversificação com moeda asiática
+51,Franco Suíço,moedas,baixo,Moeda considerada porto seguro global,300.00,Proteção em cenários de crise
+52,Yuan Chinês,moedas,medio,Variação cambial CNY/BRL,300.00,Exposição à economia chinesa

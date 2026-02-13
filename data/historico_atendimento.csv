@@ -1,0 +1,36 @@
+id,cpf,data,canal,tema,resumo,resolvido
+1,123.456.789-00,2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,true
+2,123.456.789-00,2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,true
+3,123.456.789-00,2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,true
+4,123.456.789-00,2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,true
+5,123.456.789-00,2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,true
+6,234.567.890-11,2025-09-01,chat,Ações,Cliente avaliou carteira e diversificação.,true
+7,234.567.890-11,2025-10-02,telefone,Criptomoedas,Dúvidas sobre volatilidade.,true
+8,234.567.890-11,2025-11-01,chat,Ações internacionais,Cliente avaliou diversificação fora do Brasil.,true
+9,234.567.890-11,2025-11-05,telefone,Criptomoedas,Revisão do percentual da carteira em ativos de alto risco.,true
+10,234.567.890-11,2025-11-12,chat,Estratégia longo prazo,Planejamento para crescimento patrimonial agressivo.,true
+11,321.654.987-00,2025-09-02,chat,Reserva de emergência,Cliente quis revisar valor ideal e liquidez antes de investir em outros produtos.,true
+12,321.654.987-00,2025-09-15,telefone,Fundos multimercado,Dúvidas sobre risco moderado e diversificação da carteira.,true
+13,321.654.987-00,2025-10-01,chat,Tesouro Selic,Cliente pediu comparação com CDB e vantagens de liquidez.,true
+14,321.654.987-00,2025-10-11,chat,Planejamento filhos,Planejamento financeiro para educação futura e aportes mensais.,true
+15,321.654.987-00,2025-10-20,telefone,Revisão carteira,Ajuste entre renda fixa e multimercado para manter risco moderado.,true
+16,456.789.123-00,2025-09-03,chat,Fundos imobiliários,Cliente buscou diversificação em renda passiva e análise de riscos.,true
+17,456.789.123-00,2025-09-17,telefone,Ações internacionais,Dúvidas sobre corretoras e tributação em investimentos fora do país.,true
+18,456.789.123-00,2025-10-01,chat,Criptomoedas,Cliente avaliou volatilidade e recomendação de percentual máximo na carteira.,true
+19,456.789.123-00,2025-10-09,chat,Estratégia de longo prazo,Planejamento para aposentadoria com foco em crescimento patrimonial.,true
+20,456.789.123-00,2025-10-20,telefone,Balanceamento de carteira,"Revisão da alocação entre renda variável, FII e renda fixa.",true
+21,567.890.123-45,2025-09-10,chat,Multimercado,Cliente comparou com renda fixa.,true
+22,567.890.123-45,2025-10-15,telefone,Planejamento,Ajuste de metas financeiras.,true
+23,567.890.123-45,2025-11-02,chat,Multimercado,Cliente avaliou riscos e horizonte de investimento.,true
+24,567.890.123-45,2025-11-07,telefone,Tesouro Selic,Revisão de liquidez para reserva de emergência.,true
+25,567.890.123-45,2025-11-15,chat,Planejamento metas,Ajuste de aportes mensais e objetivos financeiros.,true
+26,678.901.234-56,2025-09-05,chat,Renda fixa,Cliente buscou segurança.,true
+27,678.901.234-56,2025-10-11,telefone,Reserva,Revisão de liquidez.,true
+28,678.901.234-56,2025-11-03,chat,Renda fixa,Cliente reforçou preferência por segurança e previsibilidade.,true
+29,678.901.234-56,2025-11-09,telefone,CDB,Comparação de taxas e prazos disponíveis.,true
+30,678.901.234-56,2025-11-18,chat,Aposentadoria,Revisão de estratégia conservadora para longo prazo.,true
+31,987.654.321-00,2025-09-05,chat,Reserva de emergência,Cliente pediu orientação de quanto reservar antes de começar a investir. Sugerido foco em liquidez diária.,true
+32,987.654.321-00,2025-09-18,telefone,Negociação de dívida,Cliente perguntou sobre estratégias para quitar empréstimo estudantil mantendo organização financeira.,true
+33,987.654.321-00,2025-10-02,chat,Tesouro Selic,"Dúvidas sobre prazo, marcação a mercado e como resgatar em caso de emergência.",true
+34,987.654.321-00,2025-10-11,chat,LCI/LCA,Cliente perguntou sobre isenção de IR e carência mínima; explicado que pode haver prazo de carência.,true
+35,987.654.321-00,2025-10-21,telefone,Orçamento mensal,Revisão do orçamento: definido limite para gastos variáveis e meta de pagamento extra da dívida.,true
