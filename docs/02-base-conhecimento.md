@@ -19,7 +19,7 @@
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 Sim, primeiro que no arquivo de perfil_invertidor só havia um tipo de perfil eu criei mais seis pessoas cada um com um perfil diferente do outro, assim sendo automaticamente expandi o histórico de atendimento e as transacoes implementando dados de cada um deles após isso apliquei estes dados em em banco de dados no postgresql e para dar certo criei mais uma tabela que é a de metas aplicando as metas de cada um dos sete investidores.
-> Obs.:no perfil_investidor o campo das senhas foi criptografado pelo metodo hash
+> Obs.:no perfil_investidor o campo das senhas foi criptografado pelo metodo hash e carreguei todos os arquivos na pasta data como .csv para que todos possam visualizar
 ---
 
 ## Estratégia de Integração
