@@ -1,31 +1,32 @@
 # Código da Aplicação
 
-Esta pasta contém o código do seu agente financeiro.
+Esta pasta contém o código do agente financeiro.
 
-## Estrutura Sugerida
+## Estrutura 
 
 ```
 src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
-└── requirements.txt    # Dependências
+├── sextafeira.py              # Aplicação principal (Streamlit/Gradio)
+├── .streamlit.py           # senhas e css da pagina
 ```
 
-## Exemplo de requirements.txt
+## Bibliotecas no python a baixar
 
 ```
 streamlit
-openai
-python-dotenv
+pandas
+hashlib
+speech_recognition
+gtts
+sqlalchemy
 ```
 
 ## Como Rodar
 
 ```bash
 # Instalar dependências
-pip install -r requirements.txt
+pip install ...
 
 # Rodar a aplicação
-streamlit run app.py
+streamlit run sextafeira.py
 ```
