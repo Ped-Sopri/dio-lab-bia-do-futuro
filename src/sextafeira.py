@@ -122,7 +122,7 @@ if not st.session_state.logado and not st.session_state.visitante:  #condição 
     st.stop()  # interrompe a execução do código para garantir que o restante do app não seja carregado enquanto o usuário estiver na página de acesso, evitando que ele veja ou interaja com a interface principal do chatbot antes de fazer login ou escolher continuar como visitante.
 #=============================================================
 #=========================CONFIG. Ollama====================
-Ollama_BASE = "http://localhost:11434"   #variavel é a URL base para acessar a API do OLLAMA.
+Ollama_BASE = "http://127.0.0.1:11434"   #variavel é a URL base para acessar a API do OLLAMA.
 OLLAMA_CHAT_URL = f"{Ollama_BASE}/api/chat"  #variavel especifica o endpoint para enviar mensagens de chat e receber respostas do modelo, utilizado na função ollama_chat para comunicação com o modelo de linguagem.
 OLLAMA_GEN_URL = f"{Ollama_BASE}/api/generate"  #variavel especifica o endpoint para enviar prompts de geração de texto e receber respostas do modelo, que poderia ser utilizado para tarefas de geração de texto mais simples ou específicas.
 
@@ -531,4 +531,5 @@ if entrada is not None: #se o usuário enviou uma entrada (texto ou áudio).
             st.session_state["mensagens"] = st.session_state["mensagens"][-MAX_MENSAGENS:]
 
 #=============================================================
+
 #=========================FIM DO APP=========================    
