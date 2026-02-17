@@ -2,7 +2,6 @@
 
 > Assistente financeiro inteligente que utiliza IA Generativa para consultoria de investimentos proativa e personalizada
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![DIO](https://img.shields.io/badge/DIO-Lab-orange.svg)](https://www.dio.me)
 
