@@ -1,149 +1,121 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 🤖 Sexta - IA para Investimentos
 
-## Contexto
+> Assistente financeiro inteligente que utiliza IA Generativa para consultoria de investimentos proativa e personalizada
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![DIO](https://img.shields.io/badge/DIO-Lab-orange.svg)](https://www.dio.me)
 
-- **Antecipar necessidades** ao invés de apenas responder perguntas
-- **Personalizar** sugestões com base no contexto de cada cliente
-- **Cocriar soluções** financeiras de forma consultiva
-- **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
+## 💡 Sobre o Projeto
 
-> [!TIP]
-> Na pasta [`examples/`](./examples/) você encontra referências de implementação para cada etapa deste desafio.
+**Sexta** é um agente de IA financeira desenvolvido como parte do desafio da Digital Innovation One (DIO). O projeto demonstra como a IA Generativa pode transformar assistentes virtuais em consultores financeiros proativos que:
 
----
+- 🎯 **Antecipam necessidades** ao invés de apenas responder perguntas
+- 🔍 **Personalizam sugestões** com base no perfil de cada investidor
+- 💼 **Cocriam soluções** financeiras de forma consultiva
+- 🛡️ **Garantem segurança** nas respostas (anti-alucinação)
 
-## O Que Você Deve Entregar
-
-### 1. Documentação do Agente
-
-Defina **o que** seu agente faz e **como** ele funciona:
-
-- **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
-- **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
-- **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
-- **Segurança:** Como evitar alucinações e garantir respostas confiáveis?
-
-📄 **Template:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
-
----
-
-### 2. Base de Conhecimento
-
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
-
-| Arquivo | Formato | Descrição |
-|---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
-
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
-
-📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
-
----
-
-### 3. Prompts do Agente
-
-Documente os prompts que definem o comportamento do seu agente:
-
-- **System Prompt:** Instruções gerais de comportamento e restrições
-- **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
-- **Tratamento de Edge Cases:** Como o agente lida com situações limite
-
-📄 **Template:** [`docs/03-prompts.md`](./docs/03-prompts.md)
-
----
-
-### 4. Aplicação Funcional
-
-Desenvolva um **protótipo funcional** do seu agente:
-
-- Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
-- Integração com LLM (via API ou modelo local)
-- Conexão com a base de conhecimento
-
-📁 **Pasta:** [`src/`](./src/)
-
----
-
-### 5. Avaliação e Métricas
-
-Descreva como você avalia a qualidade do seu agente:
-
-**Métricas Sugeridas:**
-- Precisão/assertividade das respostas
-- Taxa de respostas seguras (sem alucinações)
-- Coerência com o perfil do cliente
-
-📄 **Template:** [`docs/04-metricas.md`](./docs/04-metricas.md)
-
----
-
-### 6. Pitch
-
-Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
-
-- Qual problema seu agente resolve?
-- Como ele funciona na prática?
-- Por que essa solução é inovadora?
-
-📄 **Template:** [`docs/05-pitch.md`](./docs/05-pitch.md)
-
----
-
-## Ferramentas Sugeridas
-
-Todas as ferramentas abaixo possuem versões gratuitas:
-
-| Categoria | Ferramentas |
-|-----------|-------------|
-| **LLMs** | [ChatGPT](https://chat.openai.com/), [Copilot](https://copilot.microsoft.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Ollama](https://ollama.ai/) |
-| **Desenvolvimento** | [Streamlit](https://streamlit.io/), [Gradio](https://www.gradio.app/), [Google Colab](https://colab.research.google.com/) |
-| **Orquestração** | [LangChain](https://www.langchain.com/), [LangFlow](https://www.langflow.org/), [CrewAI](https://www.crewai.com/) |
-| **Diagramas** | [Mermaid](https://mermaid.js.org/), [Draw.io](https://app.diagrams.net/), [Excalidraw](https://excalidraw.com/) |
-
----
-
-## Estrutura do Repositório
+## 📂 Estrutura do Projeto
 
 ```
-📁 lab-agente-financeiro/
+📁 dio-lab-bia-do-futuro/
 │
-├── 📄 README.md
+├── 📁 data/                          # Base de conhecimento
+│   ├── transacoes.csv                # Histórico de transações
+│   ├── perfil_investidor.csv         # Perfil do investidor
+│   ├── produtos_financeiros.csv      # Produtos disponíveis
+│   ├── metas.csv                     # Objetivos
+│   └── historico_atendimento.csv     # Histórico de interações
 │
-├── 📁 data/                          # Dados mockados para o agente
-│   ├── historico_atendimento.csv     # Histórico de atendimentos (CSV)
-│   ├── perfil_investidor.json        # Perfil do cliente (JSON)
-│   ├── produtos_financeiros.json     # Produtos disponíveis (JSON)
-│   └── transacoes.csv                # Histórico de transações (CSV)
-│
-├── 📁 docs/                          # Documentação do projeto
+├── 📁 docs/                          # Documentação completa
 │   ├── 01-documentacao-agente.md     # Caso de uso e arquitetura
 │   ├── 02-base-conhecimento.md       # Estratégia de dados
 │   ├── 03-prompts.md                 # Engenharia de prompts
-│   ├── 04-metricas.md                # Avaliação e métricas
-│   └── 05-pitch.md                   # Roteiro do pitch
+│   ├── 04-metricas.md                # Métricas de avaliação
+│   └── 05-pitch.md                   # Apresentação do projeto
 │
 ├── 📁 src/                           # Código da aplicação
-│   └── app.py                        # (exemplo de estrutura)
+│   └── app.py                        # Aplicação principal
 │
-├── 📁 assets/                        # Imagens e diagramas
-│   └── ...
-│
-└── 📁 examples/                      # Referências e exemplos
-    └── README.md
+├── 📁 examples/                      # Exemplos de uso
+└── 📁 assets/                        # Recursos visuais
 ```
+
+## 🚀 Funcionalidades
+
+### Análise de Perfil de Investidor
+- Avaliação automática do perfil de risco (conservador, moderado, arrojado)
+- Recomendações personalizadas baseadas em histórico e objetivos
+
+### Consultoria Proativa
+- Alertas inteligentes sobre oportunidades de mercado
+- Sugestões de rebalanceamento de portfólio
+- Insights sobre tendências de investimento
+
+### Base de Conhecimento Integrada
+- Acesso a histórico completo de transações
+- Análise de comportamento financeiro
+- Produtos financeiros disponíveis e elegibilidade
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python** - Linguagem principal
+- **IA Generativa** - LLMs para processamento de linguagem natural
+- **Streamlit** - Interface de usuário
+- **Pandas** - Análise e manipulação de dados
+- **PostgreSQL** - Banco de dados 
+
+## 📊 Destaques Técnicos
+
+### Engenharia de Prompts
+Sistema de prompts estruturado para garantir:
+- Respostas precisas e contextualizadas
+- Aderência ao perfil do investidor
+- Conformidade regulatória
+- Prevenção de alucinações
+
+### Métricas de Qualidade
+- ✅ Precisão das recomendações
+- ✅ Taxa de segurança (anti-alucinação)
+- ✅ Satisfação do usuário
+- ✅ Coerência com perfil de risco
+
+## 🎓 Desenvolvimento
+
+Este projeto foi desenvolvido como parte do **Bootcamp DIO** focado em IA Generativa aplicada ao setor financeiro.
+
+### Aprendizados
+- Arquitetura de agentes de IA
+- Engenharia de prompts avançada
+- RAG (Retrieval-Augmented Generation)
+- Segurança e compliance em IA financeira
+
+## 📝 Documentação
+
+Toda a documentação detalhada está disponível na pasta [`docs/`](docs/):
+- **Caso de uso** e arquitetura do agente
+- **Estratégia** de base de conhecimento
+- **Prompts** e exemplos de interação
+- **Métricas** de avaliação
+- **Pitch** e apresentação
+
+## 👨‍💻 Autor
+
+**Pedro Augusto de Jesus Soprijo**
+- GitHub: [@Ped-Sopri](https://github.com/Ped-Sopri)
+
+## 🙏 Agradecimentos
+
+- [Digital Innovation One (DIO)](https://www.dio.me) pela estrutura do desafio
+- Comunidade tech pela colaboração e feedback
+
+## 📄 Licença
+
+Este projeto é open source.
 
 ---
 
-## Dicas Finais
-
-1. **Comece pelo prompt:** Um bom system prompt é a base de um agente eficaz
-2. **Use os dados mockados:** Eles garantem consistência e evitam problemas com dados sensíveis
-3. **Foque na segurança:** No setor financeiro, evitar alucinações é crítico
-4. **Teste cenários reais:** Simule perguntas que um cliente faria de verdade
+<div align="center">
+  <sub>Desenvolvido com 💜 para o Bootcamp DIO</sub>
+</div>e faria de verdade
 5. **Seja direto no pitch:** 3 minutos passam rápido, vá ao ponto
